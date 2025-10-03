@@ -11,17 +11,7 @@ Automatyzacja generowania i wprowadzania paragonów / faktur z Allegro & WooComm
 
 </div>
 
-## 📌 Quick Start (3 kroki)
-
-1. 🧩 Załaduj rozszerzenie (tryb deweloperski → folder `extension/`).  
-2. ▶️ Uruchom `app/skrypt.pyw` (Paragoniarka).  
-3. 🧾 Wejdź w zamówienie → kliknij „Przygotuj Paragon/Fakturę” → obserwuj autouzupełnianie w MikroSubiekt.
-
-> Chcesz wersję bez rozszerzenia (tylko API)? → użyj repo `simple-allegro` (tworzy te same pliki `paragon.txt` / `faktura.txt`).
-
----
-
-## 🔄 Jak to działa?
+## 📌 Jak to działa?
 
 1. W panelu Allegro / WordPress pojawiają się przyciski (iniekcja content scriptu).  
 2. Kliknięcie „Przygotuj Paragon” / „Przygotuj Fakturę” generuje plik(i): `paragon.txt` (+ opcjonalnie `faktura.txt`).  
@@ -32,6 +22,8 @@ Automatyzacja generowania i wprowadzania paragonów / faktur z Allegro & WooComm
 7. Edytor `title_creator.pyw` służy do rozbudowy słownika bez ręcznej edycji JSON.
 
 > 💡 Jeśli pojawi się błąd dopasowania – otwórz edytor, dodaj nowy wariant tytułu, zapisz i wygeneruj ponownie.
+> 
+> Chcesz wersję bez wtyczki (API + Dashboard zamówień z Allegro i WooCommerce w jednym miejscu)? → użyj repo `simple-allegro` (tworzy te same pliki `paragon.txt` / `faktura.txt`).
 
 ### Alternatywa: API (`simple-allegro`)
 
@@ -60,11 +52,9 @@ Oba feedują ten sam pipeline w Pythonie.
 
 | Komponent | Opis |
 |-----------|------|
-| `extension/content.js` | Przyciski + ekstrakcja danych + generowanie plików i cache do BLPaczka |
+| `extension/` | Wtyczka do przeglądarki |
 | `app/skrypt.pyw` | Paragoniarka – GUI statusu + symulacja wpisywania |
 | `app/title_creator.pyw` | Edytor słownika towarów |
-| `app/titles.json` | Mapowanie: warianty tytułów → skrót + offset (ile w dół) |
-| `app/done.mp3` / `app/error.mp3` | Feedback dźwiękowy |
 
 ## 🧩 Wymagania (część Python)
 
@@ -115,7 +105,6 @@ WordPress: brak generacji faktury (obsługiwanie tylko paragonu).
 
 - Brak walidacji NIP / numerów telefonu.
 - Stałe współrzędne myszy – zmiana layoutu / DPI / monitorów = potrzeba dostosowania.
-- `silent except` w kilku miejscach – ukryte błędy (warto dodać logowanie).
 - Zależne od klas CSS i struktury stron (kruchość przy redesignie Allegro / WooCommerce).
 
 ## 🖼️ Propozycje zrzutów ekranu
@@ -148,14 +137,6 @@ Umieść w `docs/screens/` i podlinkuj:
 2. Kliknij przycisk Paragon w Allegro.
 3. Otwórz DevTools → Console → sprawdź log „Zebrane dane z zamówienia”.
 4. Sprawdź, czy Paragoniarka zareagowała (diody + tabela).
-
-## 📜 Licencja
-
-(Dodaj wybraną licencję – np. MIT / GPLv3).
-
-## 👤 Autor
-
-Kamil Jama
 
 ---
 
