@@ -70,8 +70,13 @@ Oba feedują ten sam pipeline w Pythonie.
 
 - Windows (symulacja GUI: `pyautogui`, `keyboard` – stałe współrzędne ekranu)
 - Python 3.13+
-- Pakiety: `pygame`, `pyautogui`, `keyboard`, `unicodedata`
-- MikroSubiekt otwarty w lewym górnym rogu
+- Pakiety: `pygame`, `pyautogui`, `keyboard`, `unicodedata` (wbud.), `json`, itd. *(warto dodać `requirements.txt`)*
+- MikroSubiekt otwarty w lewym górnym rogu (nie zasłaniać go, brak skalowania DPI > 125% jeśli możliwe)
+- Skonfiguruj w pliku `app/skrypt.pyw` (linijki z `paragon_path` i `faktura_path`) własną ścieżkę katalogu pobierania — musi wskazywać dokładnie miejsce, gdzie przeglądarka zapisuje `paragon.txt` / `faktura.txt`.
+	```python
+  18. paragon_path = 'C:/Users/kamil/Downloads/paragon.txt'
+  19. faktura_path = 'C:/Users/kamil/Downloads/faktura.txt'
+	```
 
 ## 🧪 Instalacja rozszerzenia
 
@@ -83,9 +88,9 @@ Oba feedują ten sam pipeline w Pythonie.
 ## 🚀 Użycie
 
 1. Uruchom Paragoniarkę: `app/skrypt.pyw`.
-2. Wejdź w zamówienie Allegro lub WooCommerce.
-3. Kliknij „Przygotuj Paragon” (lub „Przygotuj Fakturę”).
-4. Sprawdź, czy pojawił się `paragon.txt` w Pobrane.
+2. Ustaw okno MikroSubiekta maksymalnie do lewego górnego rogu ekranu.
+3. Wejdź w zamówienie Allegro lub WooCommerce.
+4. Kliknij „Przygotuj Paragon” (lub „Przygotuj Fakturę”).
 5. Obserwuj autouzupełnianie w MikroSubiekt.
 6. Jeśli błąd (sygnał) → dopisz wariant w edytorze tytułów.
 
@@ -112,11 +117,6 @@ WordPress: brak generacji faktury (obsługiwanie tylko paragonu).
 - Stałe współrzędne myszy – zmiana layoutu / DPI / monitorów = potrzeba dostosowania.
 - `silent except` w kilku miejscach – ukryte błędy (warto dodać logowanie).
 - Zależne od klas CSS i struktury stron (kruchość przy redesignie Allegro / WooCommerce).
-
-## 🗺️ Roadmap / pomysły
-
-- ✅ Dźwiękowe potwierdzenia / błędy
-- [ ] Konfigurowalne współrzędne (JSON)
 
 ## 🖼️ Propozycje zrzutów ekranu
 
