@@ -11,6 +11,10 @@ Automatyzacja generowania i wprowadzania paragonów / faktur z Allegro & WooComm
 
 </div>
 
+<p align="center">
+  <img src="paragoniarka.gif" alt="Paragoniarka" width="500" />
+</p>
+
 ## 📌 Jak to działa?
 
 1. W panelu Allegro / WordPress pojawiają się przyciski (iniekcja content scriptu).  
@@ -88,13 +92,17 @@ Oba feedują ten sam pipeline w Pythonie.
 
 ## ✏️ Edycja słownika tytułów (`titles.json`)
 
-1. Otwórz `title_creator.pyw` (lub kliknij „Edytuj tytuły” w głównym oknie Paragoniarki).  
-2. Wprowadź różne warianty tytułów (bez polskich znaków – Python normalizuje).  
-3. Ustaw skrót (ten wpisujesz w MikroSubiekcie).  
-4. `ile_w_dol` = ile razy nacisnąć ↓ po wpisaniu skrótu przed Enter.  
-5. Zapisz → testuj ponownie.
+<img src="edytor_tytulow.gif" alt="Edytor tytułów – animacja" width="350" align="right" />
 
+1. Otwórz `title_creator.pyw` (albo przycisk „Edytuj tytuły”).
+2. Dodaj warianty tytułów (bez polskich znaków – będą normalizowane).
+3. Ustaw skrót (użyjesz w MikroSubiekcie).
+4. `ile_w_dol` = ile razy nacisnąć ↓ przed Enter.
+5. Zapisz i przetestuj.
+   
 > 🧠 Warto dodać najpierw najkrótsze i najbardziej charakterystyczne warianty.
+
+<br clear="right" />
 
 ## 🧾 Dane faktury
 
@@ -106,23 +114,6 @@ WordPress: brak generacji faktury (obsługiwanie tylko paragonu).
 - Brak walidacji NIP / numerów telefonu.
 - Stałe współrzędne myszy – zmiana layoutu / DPI / monitorów = potrzeba dostosowania.
 - Zależne od klas CSS i struktury stron (kruchość przy redesignie Allegro / WooCommerce).
-
-## 🖼️ Propozycje zrzutów ekranu
-
-Umieść w `docs/screens/` i podlinkuj:
-
-| Plik | Sekcja | Opis |
-|------|--------|------|
-| `toolbar-buttons.png` | Jak to działa | Przyciski w Allegro (Paragon/Faktura/BLPaczka) |
-| `allegro-order.png` | Jak to działa | Widok zamówienia przed kliknięciem |
-| `downloaded-files.png` | Jak to działa | Pobrane pliki w przeglądarce |
-| `paragoniarka-main.png` | Użycie | Okno Paragoniarki (diody + tabela) |
-| `title-editor.png` | Edycja słownika | Formularz edytora |
-| `faktura-flow.png` | Dane faktury | Otwarta karta z danymi do faktury |
-| `mikrosubiekt-fill.png` | Użycie | Wypełnione pozycje w MikroSubiekt |
-| `blpaczka-integration.png` | (opcjonalnie) | Podgląd danych odbiorcy w BLPaczka |
-
-> 💡 GIF (`flow.gif`) z pełnym procesem = świetny skrót dla nowych użytkowników.
 
 ## ⚠️ Uwagi operacyjne
 
