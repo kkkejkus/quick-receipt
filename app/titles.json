@@ -1,0 +1,422 @@
+[
+    {
+        "tytuly": [
+            "bluza meska",
+            "bluzka meska"
+        ],
+        "nazwa_towaru": "bl",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "polo",
+            "polowka"
+        ],
+        "nazwa_towaru": "po",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "koszulka meska",
+            "meska koszulka",
+            "tshirt meska",
+            "tshirt meski"
+        ],
+        "nazwa_towaru": "ts",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "koszulka damska",
+            "damska koszulka",
+            "tshirt damska",
+            "tshirt damski"
+        ],
+        "nazwa_towaru": "ts",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "bluza sportowa",
+            "bluzka sportowa",
+            "bluza termoaktywna",
+            "bluzka termoaktywna"
+        ],
+        "nazwa_towaru": "bl",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "bluza damska",
+            "bluzka damska"
+        ],
+        "nazwa_towaru": "bl",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "polar",
+            "bluza polarowa",
+            "bluzka polarowa"
+        ],
+        "nazwa_towaru": "pola",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "kamizelka"
+        ],
+        "nazwa_towaru": "kam",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "koszula"
+        ],
+        "nazwa_towaru": "koszula",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "koszulka treningowa"
+        ],
+        "nazwa_towaru": "ts",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "koszulka damska",
+            "damska koszulka"
+        ],
+        "nazwa_towaru": "ts",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "kurtka meska",
+            "meska kurtka",
+            "meski plaszcz",
+            "plaszcz meski"
+        ],
+        "nazwa_towaru": "kur",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "softshell meski",
+            "meski softshell"
+        ],
+        "nazwa_towaru": "so",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "softshell damski",
+            "damski softshell"
+        ],
+        "nazwa_towaru": "so",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "kurtka damska",
+            "damska kurtka",
+            "damski plaszcz",
+            "plaszcz damski"
+        ],
+        "nazwa_towaru": "kur",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "komplet damski"
+        ],
+        "nazwa_towaru": "komp",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "komplet meski czapka komin rekawice",
+            "komplet meski czapka komin rekawiczki",
+            "komplet meski zimowy czapka komin rekawice",
+            "komplet meski zimowy czapka komin rekawiczki"
+        ],
+        "nazwa_towaru": "komp",
+        "ile_w_dol": 4
+    },
+    {
+        "tytuly": [
+            "komplet meski szalik czapka rekawice",
+            "komplet meski szalik czapka rekawiczki",
+            "komplet meski zimowy szalik czapka rekawice",
+            "komplet meski zimowy szalik czapka rekawiczki"
+        ],
+        "nazwa_towaru": "komp",
+        "ile_w_dol": 5
+    },
+    {
+        "tytuly": [
+            "komplet meski czapka komin",
+            "komplet meski zimowy czapka komin"
+        ],
+        "nazwa_towaru": "komp",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "komplet meski czapka szal",
+            "komplet meski zimowy czapka szal"
+        ],
+        "nazwa_towaru": "komp",
+        "ile_w_dol": 3
+    },
+    {
+        "tytuly": [
+            "czapka meska",
+            "meska czapka",
+            "czapka zimowa meska"
+        ],
+        "nazwa_towaru": "cz",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "czapka damska",
+            "damska czapka",
+            "czapka zimowa damska"
+        ],
+        "nazwa_towaru": "cz",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "czapka"
+        ],
+        "nazwa_towaru": "cz",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "szal damski",
+            "szalik damski",
+            "szal zimowy damski",
+            "szalik zimowy damski"
+        ],
+        "nazwa_towaru": "sza",
+        "ile_w_dol": 3
+    },
+    {
+        "tytuly": [
+            "szal meski",
+            "szalik meski",
+            "szal zimowy meski",
+            "szalik zimowy meski"
+        ],
+        "nazwa_towaru": "sza",
+        "ile_w_dol": 4
+    },
+    {
+        "tytuly": [
+            "komin"
+        ],
+        "nazwa_towaru": "kom",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "rekawiczki",
+            "rekawice"
+        ],
+        "nazwa_towaru": "reka",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "spodnie meskie",
+            "meskie spodnie"
+        ],
+        "nazwa_towaru": "spod",
+        "ile_w_dol": 3
+    },
+    {
+        "tytuly": [
+            "spodnie damskie",
+            "damskie spodnie"
+        ],
+        "nazwa_towaru": "spod",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "bokserki",
+            "majtki"
+        ],
+        "nazwa_towaru": "bo",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "kapelusz"
+        ],
+        "nazwa_towaru": "kap",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "kapielowki",
+            "spodnie kapielowe",
+            "szorty"
+        ],
+        "nazwa_towaru": "kapi",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "damski stroj"
+        ],
+        "nazwa_towaru": "str",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "klapki"
+        ],
+        "nazwa_towaru": "kl",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "okulary"
+        ],
+        "nazwa_towaru": "ok",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "sandaly"
+        ],
+        "nazwa_towaru": "sa",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "saszetka"
+        ],
+        "nazwa_towaru": "sas",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "koc"
+        ],
+        "nazwa_towaru": "koc",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "ponczo",
+            "recznik dla dzieci",
+            "recznik z kapturem dla dzieci"
+        ],
+        "nazwa_towaru": "pon",
+        "ile_w_dol": 1
+    },
+    {
+        "tytuly": [
+            "recznik"
+        ],
+        "nazwa_towaru": "rec",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "butelka"
+        ],
+        "nazwa_towaru": "bu",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "buty do wody",
+            "buty damskie do wody",
+            "buty meskie do wody",
+            "buty dzieciece do wody"
+        ],
+        "nazwa_towaru": "bu",
+        "ile_w_dol": 3
+    },
+    {
+        "tytuly": [
+            "buty dzieciece",
+            "dzieciece buty"
+        ],
+        "nazwa_towaru": "buty",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "buty meskie",
+            "meskie buty",
+            "meskie sneakersy",
+            "meskie sniegowce"
+        ],
+        "nazwa_towaru": "bu",
+        "ile_w_dol": 4
+    },
+    {
+        "tytuly": [
+            "buty damskie",
+            "damskie buty",
+            "damskie sneakersy",
+            "damskie sniegowce"
+        ],
+        "nazwa_towaru": "bu",
+        "ile_w_dol": 2
+    },
+    {
+        "tytuly": [
+            "kijki",
+            "kije"
+        ],
+        "nazwa_towaru": "ki",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "plecak"
+        ],
+        "nazwa_towaru": "pl",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "impregnat"
+        ],
+        "nazwa_towaru": "im",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "srodek"
+        ],
+        "nazwa_towaru": "czy",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "worek"
+        ],
+        "nazwa_towaru": "wor",
+        "ile_w_dol": 0
+    },
+    {
+        "tytuly": [
+            "wysylka",
+            "wysyłka",
+            "Wysyłka",
+            "Wysylka"
+        ],
+        "nazwa_towaru": "wys",
+        "ile_w_dol": 0
+    }
+]
