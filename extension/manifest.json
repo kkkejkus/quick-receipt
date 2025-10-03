@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Receipt",
+  "version": "12.2024",
+  "author": "Kamil Jama",
+  "description": "Dodaje przyciski funkcyjne ułatwiające prace do panelu admina Allegro i Wordpress.",
+  "permissions": ["downloads", "scripting", "activeTab", "notifications", "storage"],
+  "host_permissions": [
+    "https://salescenter.allegro.com/*",
+    "https://blpaczka.com/panel",
+    "https://outdoorowe.pl/wp-admin/*",
+    "https://sklepbastion.pl/wp-admin/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://salescenter.allegro.com/*",
+        "https://blpaczka.com/panel",
+        "https://outdoorowe.pl/wp-admin/*",
+        "https://sklepbastion.pl/wp-admin/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
